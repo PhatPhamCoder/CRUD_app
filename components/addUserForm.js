@@ -15,7 +15,7 @@ export default function AddUserForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (Object.keys(formData).length === 0)
+    if (Object.keys(formData).length == 0)
       return console.log("Don't have Form Data");
   };
 
